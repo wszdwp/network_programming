@@ -1,4 +1,4 @@
-/*child call exterm to show the commands*/
+/*child calls exterm to show the commands*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
