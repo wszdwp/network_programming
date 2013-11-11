@@ -1,8 +1,3 @@
-
-
-Network Programming
-
-
 Unix Pipes
 
 
@@ -174,4 +169,4 @@ The parent can fork once and the child can fork once, giving a parent, child and
 The parent can create two pipes before any forking. After a fork therewill then be a total of 8 ends open (2 processes * two ends * 2 pipes). Most of these wil have to be closed to ensure that there ends up only one read and only one write end.
 As many ends as possible of a pipe may be closed before a fork. This minimises the number of closes that have to be done after forking.
 
-Valid HTML 4.01!  Valid CSS!
+
